@@ -2,6 +2,11 @@
 
 > [English](README.md) | **한국어**
 
+![tcxLabel preview](preview.png)
+
+*한국어(`데모`), 일본어(`デモ`), 초록색 `drawTextWithBackground` 배지,
+monospace 정렬 컬럼(uptime/boot_time)이 한 폰트로 같이 렌더링되는 모습.*
+
 TrussC의 비트맵 폰트를 대체하는, label로 쉽게 사용할 수 있도록 도와주는 애드온입니다.
 TrussC `tc::Font` 위에 얹은 헤더파일로만 구성된 래퍼 클래스로, 사이즈별 폰트 캐싱 / 정렬 / 배경 박스 그리기를 제공합니다.
 

@@ -2,6 +2,12 @@
 
 > **English** | [한국어](README.ko.md)
 
+![tcxLabel preview](preview.png)
+
+*A TrussC app rendering Korean (`데모`), Japanese (`デモ`), a green
+`drawTextWithBackground` badge, and monospace tabular columns — all from
+the bundled font.*
+
 A drop-in replacement for TrussC's bitmap font, making `label` (text rendering)
 easy to use. A header-only wrapper around TrussC's `tc::Font` that adds
 per-size font caching, alignment, and styled background boxes.
