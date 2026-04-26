@@ -4,7 +4,9 @@
 // tcxLabel - Label / text rendering on top of TrussC's Font class.
 // =============================================================================
 //
-// Bundled font: Sarasa Fixed K Nerd Font (Korean + Nerd icons + monospace).
+// Bundled font: Sarasa Fixed K Nerd Font (CJK + Nerd icons + monospace).
+// Covers Korean / Chinese / Japanese; "K" variant prefers Korean-style
+// glyphs for shared Han ideographs — swap via setFont() for J/SC/TC.
 // Copied to <project>/bin/data/fonts/ at CMake configure time.
 //
 // Quick start:

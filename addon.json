@@ -1,6 +1,6 @@
 {
-  "description": "Label / text rendering API on top of TrussC's Font class. Bundles Sarasa Fixed K Nerd Font (Korean + Nerd icons).",
+  "description": "Label / text rendering API on top of TrussC's Font class. Bundles Sarasa Fixed K Nerd Font (CJK + Nerd icons + monospace).",
   "author": "icq4ever",
   "license": "MIT",
-  "keywords": ["label", "text", "font", "ttf", "korean", "nerd"]
+  "keywords": ["label", "text", "font", "ttf", "cjk", "korean", "chinese", "japanese", "nerd"]
 }
