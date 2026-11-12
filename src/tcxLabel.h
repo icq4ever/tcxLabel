@@ -92,13 +92,12 @@ inline tc::Font* getFont(int size) {
     // Resolve relative paths via TrussC's data path convention.
     // Absolute paths (e.g. /usr/share/fonts/...) pass through unchanged.
     const std::string& path = currentFontPath();
-    std::string resolved =
-        (!path.empty() && path[0] == '/') ? path : tc::getDataPath(path);
+    const auto resolved = tc::getDataPath(path);
 
     tc::Font f;
     if (!f.load(resolved, size)) {
         tc::logError() << "[tcxLabel] Failed to load font: "
-                       << resolved << " @ " << size << "px";
+                       << resolved.string() << " @ " << size << "px";
         failed.insert(size);
         return nullptr;
     }
